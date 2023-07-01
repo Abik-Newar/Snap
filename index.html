@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./css/style.css">
   
   <title>Frontend Mentor | Intro section with dropdown navigation</title>
 
@@ -16,14 +17,71 @@
 </head>
 <body>
 
-  <h1>Are your There?</h1>
-  Features
-  Company
-  Careers
-  About
+  <div class="hero-Section">
+    <div class="navbar">
+      <div class="logo-Section">
+        <img src="./images/logo.svg" alt="Snap logo">
+      </div>
 
-  Login
-  Register
+      <div class="navlist">
+        <ul>
+          <li class="list-items">
+            Features <img src="./images/icon-arrow-down.svg" alt="down"> <img src="./images/icon-arrow-up.svg" alt="down">
+          </li>
+
+          <div class="dowpdown-list">
+            <li class="dropList">
+              <img src="./images/icon-todo.svg" alt="todo"> Todo List
+            </li>
+            <li class="dropList">
+              <img src="./images/icon-calendar.svg" alt="calendar"> Calender
+            </li>
+            <li class="dropList">
+              <img src="./images/icon-reminders.svg" alt="remainders">Reminders
+            </li>
+            <li class="dropList">
+              <img src="./images/icon-planning.svg" alt="planning">Planning
+            </li>
+          </div>
+
+          <li class="list-items">
+            Company
+          </li>
+
+          <div class="dowpdown-list">
+            <li class="dropList">
+              History
+            </li>
+            <li class="dropList">
+              Our Team
+            </li>
+            <li class="dropList">
+              Blog
+            </li>
+          </div>
+
+          <li class="list-items">
+            Features
+          </li>
+
+          <li class="list-items">
+            About
+          </li>
+        </ul>
+      </div>
+
+      <div class="auth-Section">
+        <button>
+          Login
+        </button>
+
+        <button>
+          Register
+        </button>
+      </div>
+    </div>
+  </div>
+
 
   Make remote work
 
